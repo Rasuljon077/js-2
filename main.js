@@ -53,12 +53,12 @@ let b = +prompt("qayta son kirit")
 let c = +prompt("yana br bor kirit")
 
 if (a < b && a > c || a < c&& a > b) {
-    console.log("ortadagi raqamedi " + a);
-    alert("ortadagi raqamedi " + a)
+    console.log("ortadagi raqame " + a);
+    alert("ortadagi raqame " + a)
 } else if (b < a && b > c || b < c && b > a) {
-    console.log("ortadagi raqamedi " + b);
-    alert("ortadagi raqamedi " + b)
+    console.log("ortadagi raqame " + b);
+    alert("ortadagi raqame " + b)
 } else{
-    console.log("ortadagi raqamedi " + c);
-    alert("ortadagi raqamdi " + c)
+    console.log("ortadagi raqame " + c);
+    alert("ortadagi raqam " + c)
 }
