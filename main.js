@@ -5,17 +5,17 @@ let userAge = +prompt(userName + " yoshingizni kiriting")
 console.log("sizning yoshingiz " + userAge + " da");
 
 if (userAge >= "0" && userAge <= "5" ) {
-    alert("boxchaga bor");
+    alert("yoshsiz boxshaga boring");
 }else if(userAge >= "6" && userAge <= "18"){
-    alert("maytap darsini qil")
+    alert("yoshsiz oqishingiz kerak")
 }else if(userAge >= "19" && userAge <= "25"){
-    alert("yaxshi ishlaga joylashvoldinmi")
+    alert("yaxshi ishga joylashishingiz kerak")
 }else if(userAge >= "26"  && userAge <= "40"){
-    alert("ish haqqi kamliq qivottimi?")
-}else if(userAge >= "41" && userAge <= "55"){
-    alert("tabrik yaqinda pensaga ciqas")
+    alert("yaqinda pensaga chiqasiz ")
+}else if(userAge >= "41" && userAge <= "70"){
+    alert("pensaga chiqibsiz")
 }else {
-    alert("pensaga chiqadigan vohtin bopti")
+    alert("haliham tirikmisiz")
 }
 
  alert(userName + " misollarni yeching")
