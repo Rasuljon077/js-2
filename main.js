@@ -23,22 +23,28 @@ if (userAge >= "0" && userAge <= "5" ) {
  let ansver1 = "15"
  if (first == ansver1) {
     console.log("sizning javob togri");
+    alert("sizning javob togri");
  } else {
     console.log("misol-1: 5 + 7 | " + " togri javob "+ ansver1 + "|| siznign javob " + first);
+    alert("misol-1: 5 + 7 | " + " togri javob "+ ansver1 + "|| siznign javob " + first + "|| QAYTA URINIP KORING");
  }
  let second = +prompt("3 * 3")
  let ansver2 = "9"
  if (second == ansver2) {
     console.log("sizning javob togri");
+    alert("sizning javob togri");
  } else {
     console.log("misol-2: 3 * 3 | " + " togri javob "+ ansver2 + "|| siznign javob " + second);
+    alert("misol-2: 3 * 3 | " + " togri javob "+ ansver2 + "|| siznign javob " + second + " SONGI IMKONIYAT");
  }
  let third = +prompt("7 * 7")
  let ansver3 = "49"
  if (third == ansver3) {
     console.log("sizning javob togri");
+    alert("sizning javob togri");
  } else {
     console.log("misol-3: 7 * 7 | " + " togri javob "+ ansver3 + "|| sizning javob " + third);
+   alert("misol-3: 7 * 7 | " + " togri javob "+ ansver3 + "|| sizning javob " + third + " SONGI URINISH TUGADI");
  }
  
 
@@ -47,12 +53,12 @@ let b = +prompt("qayta son kirit")
 let c = +prompt("yana br bor kirit")
 
 if (a < b && a > c || a < c&& a > b) {
-    console.log("ortadagi raqam " + a);
-    alert("ortadagi raqam " + a)
+    console.log("ortadagi raqamedi " + a);
+    alert("ortadagi raqamedi " + a)
 } else if (b < a && b > c || b < c && b > a) {
-    console.log("ortadagi raqam " + b);
-    alert("ortadagi raqam " + b)
+    console.log("ortadagi raqamedi " + b);
+    alert("ortadagi raqamedi " + b)
 } else{
-    console.log("ortadagi raqam " + c);
-    alert("ortadagi raqam " + c)
+    console.log("ortadagi raqamedi " + c);
+    alert("ortadagi raqamdi " + c)
 }
